@@ -1,3 +1,77 @@
 page-home {
+  ion-thumbnail{
+    position: relative;
+  }
+
+
+  ion-header button{
+    margin-top: 10px;
+  }
+
+  .custom-glasses{
+    position: absolute;
+    top: 29px;
+    font-size: 37px;
+    left: 24px;
+  }
+  ion-thumbnail .float-img{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    bottom: 5px;
+    margin-left: 25px;
+  }
+  .plant-container {
+    h2 {
+      font-size: 14px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-family: Opensans;
+      display: inline;
+      color: #01a149;
+    }
+
+    .description{
+      font-size: 1.0rem !important;
+      strong{
+        text-transform: uppercase;
+      }
+    }
+
+    .status-button{
+      background: transparent;
+      border: none;
+      padding: 0px 8px 0px 0px !important;
+      box-shadow: none;
+      position: relative;
+
+
+    }
+
+    .status{
+      position: absolute !important;
+      bottom: -3px !important;
+      right: 0px !important;
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .status-button.water{
+      color: #61b8ff;
+    }
+
+    .status-button.sunny{
+      color: #ffc230;
+    }
+
+    .status-button.happy{
+      color: #ffa627;
+    }
+
+
+  }
+
+
 
 }

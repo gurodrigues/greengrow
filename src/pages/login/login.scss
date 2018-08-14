@@ -1,0 +1,105 @@
+page-login {
+  ion-content{
+    background-image: url('../../assets/imgs/fundologin3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+  }
+
+  h1{
+    font-family: 'Exo2';
+    font-weight: 300;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+  ion-label{
+    color: #fff !important;
+    font-weight: 300;
+    font-family: Opensans;
+    font-size: 1.0em;
+    text-transform: uppercase;
+  }
+
+  .input-md[clearInput] .text-input,.input-ios[clearInput]{
+    color:#fff;
+  }
+
+
+  ion-icon{
+    font-size: 1.2em;
+  }
+
+  #remember-password{
+    font-size: 0.8em;
+    text-transform: none;
+  }
+
+  .item.item-md .checkbox-md{
+    margin: 9px 9px 9px 0px !important;
+  }
+
+  .no-border .item-inner{
+    border-bottom: 1px solid transparent !important;
+  }
+
+  .checkbox-ios .checkbox-icon{
+    width: 19px;
+    height: 19px;
+  }
+
+  #form-login button{
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  
+  #forgot{
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+
+  #divider-login span::after,#divider-login span::before{
+    content: '';
+    width: 90px;
+    height: 1px;
+    background: #fff;
+    display: inline-block;
+  }
+  #divider-login span::after{
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  #divider-login span::before{
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+
+  #divider-login{
+    position: relative;
+    padding: 0px 16px;
+    font-weight: 300;
+  }
+
+  #divider-login span{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+
+  .social-buttons{
+    font-size: 1.0em;
+    border-radius: 85%;
+    height: auto;
+    padding: 10px 12px;
+  }
+
+}

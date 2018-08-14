@@ -1,0 +1,88 @@
+page-tabs{
+  #plant-container{
+    background-image: url("../../assets/imgs/bg-open.jpg");
+    background-position: center;
+
+    .custom-glasses{
+      font-size: 114px;
+      position: absolute;
+      width: 100px;
+      height: auto;
+      position: absolute;
+      left: 0px;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 135px;
+      z-index: 9999;
+    }
+
+    .hat{
+      width: 64px;
+      height: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 20%;
+      z-index: 99999999;
+      bottom: 154px;
+    }
+
+    h1{
+      font-size: 20px;
+      font-weight: 600;
+      font-family: Opensans;
+      text-align: center;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #fff;
+      margin: 12px;
+    }
+    .main-plant{
+      width: 100px;
+      height: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      bottom: 20%;
+    }
+    .fixed-content-top{
+      position: fixed;
+      top: 56px;
+      height: auto;
+      width: 100%;
+
+      button{
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        position: relative;
+        color: #fff;
+      }
+
+    }
+
+    .fixed-content-bottom{
+      position: fixed;
+      bottom: 0;
+      height: auto;
+      width: 100%;
+
+      ion-col{
+        text-align: center;
+      }
+
+      button{
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        position: relative;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -14,3 +14,127 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+$text-input-highlight-color-valid: #3ebfe2;
+@font-face {
+  font-family: "Exo2";
+  src: url('../assets/fonts/Exo2/Exo2300.woff2');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Exo2";
+  src: url('../assets/fonts/Exo2/exo2400.woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Exo2";
+  src: url('../assets/fonts/Exo2/exo2700.woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Opensans";
+  src: url('../assets/fonts/opensans/open300.woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Opensans";
+  src: url('../assets/fonts/opensans/open400.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Opensans";
+  src: url('../assets/fonts/opensans/open600.woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Opensans";
+  src: url('../assets/fonts/opensans/open700.woff2');
+  font-weight: 700;
+}
+.valign ion-grid{
+  height: 100%;
+  justify-content: center;
+}
+.center{
+  text-align: center;
+}
+.transparent{
+  background: transparent;
+  background-color: transparent;
+}
+.list-ios > .item-block:first-child{
+  border-top: none;
+}
+.submit-button{
+  width: 100%;
+  text-transform: uppercase;
+}
+
+button.facebook{
+  background-color: #3c6fad !important;
+  border: 0px;
+}
+button.google{
+  background-color: #db4437 !important;
+  border: 0px;
+}
+p,span,h1,h2,h3,h4,h5,ion-label{
+  font-family: "Opensans";
+}
+
+.item-md.item-input.input-has-focus .item-inner {
+  border-bottom-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.list-md .item-input.input-has-focus:last-child {
+  border-bottom-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.list-md .item-input.input-has-focus:last-child .item-inner {
+  box-shadow: none;
+}
+
+.item-md.item-input.ng-valid.input-has-value:not(.input-has-focus) .item-inner {
+  border-bottom-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):last-child {
+  border-bottom-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):last-child .item-inner {
+  box-shadow: none;
+}
+
+.item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus) .item-inner {
+  border-bottom-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):last-child {
+  border-bottom-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.no-border .item-md.item-block .item-inner{
+  border-color: transparent !important;
+}
+
+.main-toolbar .toolbar-background{
+  background-color: #5fa535;
+  color: #fff;
+}
+
+.toolbar-title {
+  color: #fff;
+  font-family: 'Exo2';
+  font-weight: 300;
+  text-transform: uppercase;
+}
